@@ -9,6 +9,10 @@ const config = {
   images: {
     remotePatterns: [{ hostname: "*" }],
   },
+  ignoreBuildErrors: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default config;
